@@ -52,27 +52,9 @@ nav{
   gap: 10px;
   }
 
-.page_profile {
-  background-color: hotpink;
-   border: 2px solid black;
-   border-radius: 1px;
-   color: white;
-   margin: 0;
-   padding: 20px;
-   width: 286px;
-   height: 725px;
-   border-top: 5px solid #333;
-   flex-direction: column; 
-   gap: 15px;
-   position: relative;
-   z-index: 1;
-   border: 4px solid black;
-   margin: 10px;
-}
-
 .idk_yet {
    background-color: black;
-   border: 2px solid pink;
+   border: 15px solid hotpink;
    border-radius: 1px;
    color: white;
    margin: 20px;
@@ -163,8 +145,7 @@ img[alt="vanilla"] {
 }
 
 .image-container img {
-  width: 100%;
-  max-width: 93px; 
+  max-width: 100%; 
   height: auto;
   border: 3px solid pink;
   display: block;
@@ -177,7 +158,6 @@ img[alt="vanilla"] {
 
 .image-container2 img {
   width: 100%;
-  max-width: 93px; 
   height: auto;
   border: 3px solid pink;
   display: block;
@@ -225,8 +205,7 @@ img[alt="vanilla"] {
 }
 
 .image-container3 img {
-  max-width: 100%;
-  max-width: 93px; 
+  max-width: 100%; 
   height: auto;
   border: 3px solid pink;
   display: block;
@@ -294,7 +273,6 @@ img[alt="vanilla"] {
 .image-container5 img {
   max-width: 100%;
   size: 200px;
-  max-width: 440px;
   height: auto;
   border: 3px solid pink;
   display: block;
@@ -383,7 +361,7 @@ img[alt="vanilla"] {
   }
 
   /* Reset layout grids and break absolute boxes into a clean vertical stack */
-  .page, .page_profile, .idk_yet, .lol, .gamer, .audio, .gallery, .char, .shows, .createPost { 
+  .page_profile, .idk_yet, .lol, .gamer, .audio, .gallery, .char, .shows, .createPost { 
     position: static !important; 
     width: 100% !important; 
     height: auto !important; 
@@ -401,5 +379,3 @@ img[alt="vanilla"] {
     width: auto !important;
   }
 }
-
-
