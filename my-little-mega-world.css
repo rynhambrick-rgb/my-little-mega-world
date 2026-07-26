@@ -368,3 +368,21 @@ img[alt="vanilla"] {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media all and (min-width: 1500px) {
+   body {
+      grid-template-columns: 200px auto;
+      grid-template-rows: 50px 150px 150px 50px;    
+      grid-template-areas: 
+         "span.top" 
+         "nav"
+         "page"
+         "idk_yet"
+         "gamer"
+         "audio"
+         "gallery"
+         "char"
+         "shows"
+         "createPost"
+         ;
+   }
