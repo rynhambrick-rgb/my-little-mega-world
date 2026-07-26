@@ -1,1 +1,1 @@
-This is my README
+This website is being used to serve as an inspiration from the MySpace era of the scene kids back in the late 2000s to early 2010s! It allows you as an user to look at all of things me and see what my favorite things are.
