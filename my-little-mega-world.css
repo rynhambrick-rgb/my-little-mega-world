@@ -52,9 +52,27 @@ nav{
   gap: 10px;
   }
 
+.page_profile {
+  background-color: hotpink;
+   border: 2px solid black;
+   border-radius: 1px;
+   color: white;
+   margin: 0;
+   padding: 20px;
+   width: 286px;
+   height: 725px;
+   border-top: 5px solid #333;
+   flex-direction: column; 
+   gap: 15px;
+   position: relative;
+   z-index: 1;
+   border: 4px solid black;
+   margin: 10px;
+}
+
 .idk_yet {
    background-color: black;
-   border: 15px solid hotpink;
+   border: 2px solid pink;
    border-radius: 1px;
    color: white;
    margin: 20px;
@@ -66,8 +84,7 @@ nav{
 }
 
 img[alt="vanilla"] {
-  max-width: 275px;'
-  Width: 100%
+  width: 275px;
   height: auto;
   border: 3px solid pink;
 }
@@ -145,10 +162,12 @@ img[alt="vanilla"] {
 }
 
 .image-container img {
-  max-width: 100%; 
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps images from stretching weirdly */
   border: 3px solid pink;
   display: block;
+  box-sizing: border-box; /* Prevents the 3px border from adding extra width */
 }
 
 .image-container2 {
@@ -158,9 +177,11 @@ img[alt="vanilla"] {
 
 .image-container2 img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover; /* Keeps images from stretching weirdly */
   border: 3px solid pink;
   display: block;
+  box-sizing: border-box; /* Prevents the 3px border from adding extra width */
 }
 
 .audio {
@@ -205,10 +226,12 @@ img[alt="vanilla"] {
 }
 
 .image-container3 img {
-  max-width: 100%; 
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps images from stretching weirdly */
   border: 3px solid pink;
   display: block;
+  box-sizing: border-box; /* Prevents the 3px border from adding extra width */
 }
 
 .gallery {
@@ -240,13 +263,14 @@ img[alt="vanilla"] {
 }
 
 .image-container4 img {
-  max-width: 100%;
-  size: 30px;
-  max-width: 440px; 
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps images from stretching weirdly */
   border: 3px solid pink;
   display: block;
+  box-sizing: border-box; /* Prevents the 3px border from adding extra width */
 }
+
 
 .char {
   background-color: black;
@@ -271,11 +295,12 @@ img[alt="vanilla"] {
 }
 
 .image-container5 img {
-  max-width: 100%;
-  size: 200px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps images from stretching weirdly */
   border: 3px solid pink;
   display: block;
+  box-sizing: border-box; /* Prevents the 3px border from adding extra width */
 }
 
 .image-container5 {
@@ -288,7 +313,7 @@ img[alt="vanilla"] {
    border: 2px solid pink;
    border-radius: 1px;
    color: white;
-   margin: 10px;
+   margin: 10;
    padding: 8px;
    position: absolute;
    width: 425px;
@@ -306,11 +331,12 @@ img[alt="vanilla"] {
 }
 
 .image-container6 img {
-  max-width: 100%;
-  size: 50px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps images from stretching weirdly */
   border: 3px solid pink;
   display: block;
+  box-sizing: border-box; /* Prevents the 3px border from adding extra width */
 }
 
 .image-container6 {
@@ -326,7 +352,7 @@ img[alt="vanilla"] {
    border: 2px solid pink;
    border-radius: 1px;
    color: white;
-   margin: 10px;
+   margin: 10;
    padding: 8px;
    width: 425px;
    min-height: 218px;
@@ -361,7 +387,7 @@ img[alt="vanilla"] {
   }
 
   /* Reset layout grids and break absolute boxes into a clean vertical stack */
-  .page_profile, .idk_yet, .lol, .gamer, .audio, .gallery, .char, .shows, .createPost { 
+  .page, .page_profile, .idk_yet, .lol, .gamer, .audio, .gallery, .char, .shows, .createPost { 
     position: static !important; 
     width: 100% !important; 
     height: auto !important; 
@@ -379,3 +405,4 @@ img[alt="vanilla"] {
     width: auto !important;
   }
 }
+
