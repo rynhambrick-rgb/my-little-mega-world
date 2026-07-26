@@ -46,28 +46,17 @@ nav{
    z-index:10;
 }
 
-.page {
-  display: grid;
-  flex-wrap: wrap;
-  gap: 10px;
-  }
-
-.page_profile {
-  background-color: hotpink;
-   border: 2px solid black;
+.idk_yet {
+   background-color: black;
+   border: 15px solid hotpink;
    border-radius: 1px;
    color: white;
-   margin: 0;
-   padding: 20px;
-   width: 286px;
-   height: 725px;
-   border-top: 5px solid #333;
-   flex-direction: column; 
-   gap: 15px;
-   position: relative;
-   z-index: 1;
-   border: 4px solid black;
-   margin: 10px;
+   margin: 20px;
+   padding: 8px;
+   width: 284px;
+  z-index: 3;
+  height: 724px;
+  bottom: 100px;
 }
 
 .idk_yet {
